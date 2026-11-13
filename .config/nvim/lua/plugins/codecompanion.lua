@@ -1,6 +1,7 @@
 table.insert(Config_callbacks, function()
 
-  vim.keymap.set('n', '<leader>cc', '<cmd>CodeCompanion<cr>', { desc = 'CodeCompanion chat' })
+  vim.keymap.set('n', '<leader>cc', '<cmd>CodeCompanion<cr>', { desc = 'CodeCompanion prompt' })
+  vim.keymap.set('n', '<leader>ct', '<cmd>CodeCompanionChat<cr>', { desc = 'CodeCompanion chat' })
 
 end)
 
